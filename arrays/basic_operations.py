@@ -25,3 +25,8 @@
 # 23. standard deviation
 # 24. variance
 # 25. range
+arr1, arr2 = [], []
+def append_operation(arr1:list, values:int)-> list:
+    return arr1.append(values)
+
+    
