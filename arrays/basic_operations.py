@@ -26,7 +26,67 @@
 # 24. variance
 # 25. range
 arr1, arr2 = [], []
+
 def append_operation(arr1:list, values:int)-> list:
-    return arr1.append(values)
+    # append operations adds the element to the end of the list
+    arr1.append(values)
+    return arr1
+
+def pop_operation(arr1):
+# pop operations remove the last element from the list
+    if not arr1:
+        return f"pop cannot be performed on empty list"
+
+    return arr1.pop() 
+
+def removeDuplicates(arr1 : list) -> list:
+    result = []    
+    for eachvalue in arr1:
+        if eachvalue not in result:
+            result = append_operation(result, eachvalue)
+
+    return f"removed duplicates : {arr1} --> {result}"
+
+def insertOperation(arr1 : list, position : int, values : int) -> list:
+    if not arr1:
+        print(f"enterd [if not arr1] condition")
+        arr1 = append_operation(arr1, values)
+    else:
+        print(f"enterd [else] condition")
+        arr1.insert(position, values)
+    return arr1
+
+def sum_operation(arr1) -> any:
+    return sum(arr1)
 
     
+
+print(append_operation(arr1, 10))
+print(append_operation(arr1, 20))
+print(append_operation(arr1, 30))
+print(append_operation(arr1, 40))
+print(append_operation(arr1, 50))
+print(append_operation(arr1, 60))
+print(append_operation(arr1, 10))
+print(removeDuplicates(arr1))
+print(insertOperation(arr2, 10, 10))
+print(insertOperation(arr2, 0, 100))
+print(sum_operation(arr1))
+print(sum_operation(arr2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
