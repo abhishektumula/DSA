@@ -59,13 +59,28 @@ def insertOperation(arr1 : list, position : int, values : int) -> list:
 def sum_operation(arr1) -> any:
     return sum(arr1)
 
-    
+def mean_operation(arr1):
+    return sum_operation(arr1) / len(arr1)
+
+def median_operation(arr1):
+    if not arr1:
+        return 0
+    else:
+        arr1.sort()
+        n = len(arr1)
+        if n % 2 != 0:
+            return f"median of {arr1} is {arr1[n//2]}"
+        ele = n // 2
+        x, y = arr1[ele], arr1[ele - 1]
+        return f"median of {arr1} is {(x+y)/2}"
+
+
 
 print(append_operation(arr1, 10))
 print(append_operation(arr1, 20))
 print(append_operation(arr1, 30))
 print(append_operation(arr1, 40))
-print(append_operation(arr1, 50))
+print(append_operation(arr1, 50)) 
 print(append_operation(arr1, 60))
 print(append_operation(arr1, 10))
 print(removeDuplicates(arr1))
@@ -73,7 +88,8 @@ print(insertOperation(arr2, 10, 10))
 print(insertOperation(arr2, 0, 100))
 print(sum_operation(arr1))
 print(sum_operation(arr2))
-
+print(mean_operation(arr1))
+print(median_operation(arr1))
 
 
 
