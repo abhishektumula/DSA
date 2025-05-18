@@ -14,7 +14,7 @@ def two_sum(numbers : list, target : int) -> list:
     print(f"runtime:{(end_time - start_time)*1000:.3f}ms")
     return False 
 
-# this one actually works , its NOT SHIT
+# this one actually works , 
 # THIS WONT SUCK AS SHIT, I PROMISE
 def fucker(numbers : list, target : list ) -> list:
     numbers.sort()m, if we fix one of the numbers, say x, we have to scan the entire array to find t
