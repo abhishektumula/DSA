@@ -56,7 +56,7 @@ def three_sum_optimized(number : list ) -> list:
     return res
 
 n = [ ]
-for i in range(100):
+for i in range(1000000):
     n.append(random.randint(-10,10))
 #print(n)
 print(three_sum_optimized(n))
