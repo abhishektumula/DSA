@@ -8,5 +8,5 @@ def runtime(start_time, end_time):
 
 def generate(n : int, start:int  , end : int  ) -> list:
     n = [random.randint(start,end) for _ in range(n)]
-    print(n )
+#    print(n )
     return n

@@ -1,5 +1,5 @@
 import time 
-from INFalienIQ import *
+from fucker import *
 def solution(numbers :list) -> list:
     start_time = time.time()
     forward = [1] * len(numbers)

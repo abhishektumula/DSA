@@ -103,6 +103,3 @@ print(median_operation(arr1))
 
 
 
-
-
-
