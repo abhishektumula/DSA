@@ -2,7 +2,7 @@
 #TODO: fuckin do something  
 #TODO: 
 #NOTE: can't do this now , just use .index()
-#NOTE: fuck it, I'll find solution no matter what....!
+#NOTE: f it , I'll find solution no matter what....!
 import time
 from abhishek import *
 def solution(number : list, target: int ) -> int:
