@@ -8,6 +8,8 @@ class node:
     def __init__(self, val:int):
         self.val = val
         self.ref = None
+    def __str__(self):
+       return str(self.val) 
 
 class linkedlist:
     def __init__(self):
@@ -108,8 +110,12 @@ class linkedlist:
             return "linked list is empty"
         n = self.head 
         while n:
+            res = ""
             print(f"|{n.val}|-->", end ="", flush = True )
+            res += str(n.val) + "-->"
             time.sleep(0.5)
             n = n.ref 
+
+        return res
 
 
