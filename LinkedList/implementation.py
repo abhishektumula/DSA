@@ -6,8 +6,8 @@
 import time
 class node:
     def __init__(self, val:int):
-        self.val = val
-        self.ref = None
+       self.val = val
+       self.ref = None
 
 class linkedlist:
     def __init__(self):
