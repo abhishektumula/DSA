@@ -2,13 +2,11 @@
 #TODO: Insertion operations
 #TODO: Traversal operations
 #TODO: Deletion operations
-
 import time
 class node:
     def __init__(self, val:int):
        self.val = val
        self.ref = None
-
 class linkedlist:
     def __init__(self):
         self.head = None
@@ -123,4 +121,3 @@ ll.deleteHeadNode()
 ll.deleteAfterNode(20)
 ll.deleteBeforeNode(100)
 print(ll.Traversal())
-
