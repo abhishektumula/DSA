@@ -3,7 +3,7 @@
 #NOTE: find the abs difference and return stuff
 #NOTE: find the optimal way... , btw i already found the optimal way
 
-#TODO: just use your f brani..
+#TODO: just use your f brain...
 
 import time 
 def difference(rangeValue : int, div : int) -> int:
@@ -20,8 +20,9 @@ def difference(rangeValue : int, div : int) -> int:
     end_time = time.time()
     print(f"runtime: {(end_time - start_time)*1000:.3f}ms")
     return abs(num1 - num2)
-#
+
 #this is f working, its the optimal or one of the optimal way to find the solution
+
 def difference_optimized(rangeValue: int, div:int) -> int:
     start_time = time.time()
     totalSum =  (rangeValue * (rangeValue + 1)) / 2 
@@ -32,6 +33,24 @@ def difference_optimized(rangeValue: int, div:int) -> int:
     print(f"runtime: {(end_time - start_time)*1000:.3f}ms")
     return abs((totalSum - multipleSum) - multipleSum )
 
-print(difference(1000000,3))
-print(difference_optimized(1000000,3))
+#print(difference(1000000,3))
+#print(difference_optimized(1000000,3))
+
+
+
+import time 
+n = 100 
+print("\n\n\n\n")
+for i in range(n, -1, -1):
+    print(f"\rstarts removing os in {i} seconds...", end= "", flush=True)
+    time.sleep(1)
+
+print(f"\rrestarting now")
+
+
+
+
+
+
+
 
