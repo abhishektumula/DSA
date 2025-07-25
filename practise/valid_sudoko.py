@@ -19,4 +19,4 @@ def valid_sudoko(board : list) -> bool:
 
     return True 
 
-print(valid_sudoko(#input))
+print(valid_sudoko(input))
