@@ -19,24 +19,3 @@ class Solution:
 
         return 1 + max(self.depthOfTree(l_depth), self.depthOfTree(r_depth))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
