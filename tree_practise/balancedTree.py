@@ -25,6 +25,6 @@ class Solution:
             return 1 + max(lef, rig)
 
 
-        return checkDepth(self.treeStr)!= 1
+        return checkDepth(treeStr)!= 1
 
 
