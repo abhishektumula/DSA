@@ -23,5 +23,3 @@ def next_permutation(original : list ) -> list:
 
 print(next_permutation([3,2,1]))
 print(next_permutation([1,2,3]))
-print(next_permutation([1,2,4,6,5,3]))
-

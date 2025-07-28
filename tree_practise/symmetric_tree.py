@@ -13,7 +13,6 @@ class Solution :
         
         if not treeStr:
             return True 
-        
         def __fn (p, q):
             if not p and not q:
                 return True 
@@ -28,4 +27,8 @@ class Solution :
 
         return __fn(treeStr.left, treeStr.right)
     
-
+def inorderTraversal (node, level = 0, prefix = "root:"): 
+    if node:                                              
+        inorderTraversal(node.left)                       
+        print(f"{node.val}", end =" --")                  
+        inorderTraversal(node.right)                      
