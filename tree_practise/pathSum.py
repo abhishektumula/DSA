@@ -10,7 +10,6 @@ class TreeNode:
 
 class Solution:
     def hasPathSum (self, treeStr : Optional[TreeNode], target : int) -> bool:
-
         def fn(node, currentSum) : 
             if not node:
                 return False

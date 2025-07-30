@@ -16,7 +16,6 @@ class Solution:
         
         if not treeStr.left:
             return self.minimumDepth(treeStr.right)
-
         if not treeStr.right:
             return self.minimumDepth(treeStr.left)
 

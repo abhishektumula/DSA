@@ -1,3 +1,4 @@
-import random
-a = [random.randint(1,10) for _ in range(10)]
-print(*a)
+print(3 & 3)
+print(100&0)
+
+
