@@ -1,9 +1,6 @@
 #NOTE:  just delete the node,
 #NOTE: change the reference
 #NOTE: simple stuff
-#NOTE: 
-#NOTE: 
-
 
 def deleteNode(head, target: int ) :
     if not head :
