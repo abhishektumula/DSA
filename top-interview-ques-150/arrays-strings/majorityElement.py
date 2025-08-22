@@ -3,7 +3,7 @@ from typing import List
 from collections import Counter
 
 class Solutiom:
-    def majoryElement(self, nums : List) :
+    def majoryElement(self, nums : List )-> int  :
         ctr = Counter(nums)
         ctr = sorted(ctr.items() , key=lambda x: x[1], reverse= True )
         return ctr[0][1]
