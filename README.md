@@ -1,4 +1,6 @@
 # Data Structures and Algorithms
 <br>
-solved/practise DSA questions on leetcode 
+  solved problems by me as a computer science student..
+  WTH is wrong with YOU
+  you know what i mean!!!!
 <br>

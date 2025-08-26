@@ -1,3 +1,4 @@
+
 def next_permutation(original : list ) -> list:
     pivot = -1
     for i in range(len(original)-2, -1, -1):
@@ -23,3 +24,14 @@ def next_permutation(original : list ) -> list:
 
 print(next_permutation([3,2,1]))
 print(next_permutation([1,2,3]))
+print(next_permutation([1,2,3,5,4]))
+print(next_permutation([1,2,6,9, 7]))
+
+
+
+
+
+
+
+
+
