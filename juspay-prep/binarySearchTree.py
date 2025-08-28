@@ -83,3 +83,12 @@ for i in range(1, len(ele)):
 ans = (levelOrder2(root))
 for i in ans:
     print(i)
+
+
+
+
+
+
+
+
+
