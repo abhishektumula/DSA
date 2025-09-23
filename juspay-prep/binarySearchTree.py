@@ -79,7 +79,6 @@ ele = [random.randint(1, 10) for _ in range(100)]
 root = bTree(ele[0])
 for i in range(1, len(ele)):
     root = root.addtoTree(root, ele[i])
-#print(levelOrder(root))
 ans = (levelOrder2(root))
 for i in ans:
     print(i)
